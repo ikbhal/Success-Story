@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_category"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/Success_Stories"
+            android:title="Success Stories"/>
+        <item android:id="@+id/Brand_Success_Stories"
+            android:title="Brand Success Stories"/>
+        <item android:id="@+id/Famous_Players_Biographies_In_Hindi"
+            android:title="Famous Players Biographies In Hindi"/>
+        <item android:id="@+id/Inspirational_Motivational_Biographies"
+            android:title="Inspirational  Motivational Biographies"/>
+        <item android:id="@+id/Actors_and_Actress_Biographies_In_Hindi"
+            android:title="Actors and Actress Biographies In Hindi"/>
+        <item android:id="@+id/Famous_Scientists_Biographies_in_Hindi"
+            android:title="Famous Scientists Biographies in Hindi"/>
+        <item android:id="@+id/Short_Inspirational_and_Motivational_Stories_in_Hindi"
+            android:title="Short Inspirational and Motivational Stories in Hindi"/>
+    </group>
+    <group
+        android:id="@+id/menu_social_media"
+        android:checkableBehavior="single">
+        <item android:id="@+id/social_media"
+            android:title="Social Media"/>
+        <item android:id="@+id/facebook"
+            android:title="Facebook" />
+        <item android:id="@+id/instagram"
+            android:title="Instagram" />
+    </group>
+    <group android:id="@+id/menu_other"
+    android:checkableBehavior="none">
+        <item android:id="@+id/other"
+            android:title="Other"/>
+        <item android:id="@+id/contact_us"
+            android:title="Contact Us" />
+    </group>
+</menu>
